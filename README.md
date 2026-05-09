@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## 使用自己的图片
 
-打开 `config.py`，把文件名改成你自己的：
+打开 `config.py`，把文件名改成自己的：
 
 ```python
 MAIN_IMAGE = "my_photo.png"          # 随便叫什么都行
@@ -34,7 +34,7 @@ EXTRA_IMAGE = "building.png"
 
 然后把对应的图片文件丢到 `images/` 目录下，运行 `prepare_images.py` 即可。彩色图会自动转灰度。
 
-如果你不放自己的图片，默认会从 scikit-image 下载 camera/moon/astronaut。
+如果不放自己的图片，默认会从 scikit-image 下载 camera/moon/astronaut。
 
 ## 运行
 
